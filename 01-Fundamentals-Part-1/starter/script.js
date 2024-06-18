@@ -99,19 +99,89 @@
 // }
 // console.log(century);
 
-const massMark = 78;
-const heightMark = 1.69;
-const massJohn = 92;
-const heightJohn = 1.95;
+// const massMark = 78;
+// const heightMark = 1.69;
+// const massJohn = 92;
+// const heightJohn = 1.95;
 
-const BMIMark = massMark / (heightMark * heightMark);
-const BMIJohn = massJohn / (heightJohn * heightJohn);
-console.log(BMIMark, BMIJohn);
-const markHigherBMI = BMIMark > BMIJohn;
-console.log(markHigherBMI);
+// const BMIMark = massMark / (heightMark * heightMark);
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIMark, BMIJohn);
+// const markHigherBMI = BMIMark > BMIJohn;
+// console.log(markHigherBMI);
 
-if (BMIMark > BMIJohn) {
-  console.log(`Mark's BMI ${BMIMark} is higher than John's ${BMIJohn}!`);
+// if (BMIMark > BMIJohn) {
+//   console.log(`Mark's BMI ${BMIMark} is higher than John's ${BMIJohn}!`);
+// } else {
+//   console.log(`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}!`);
+// }
+
+// const money = 100;
+// if (money) {
+//   console.log("don't spend it all ;)");
+// } else {
+//   console.log("you should get a job!");
+// }
+
+// let height = 0;
+// if (height) {
+//   console.log("height is defined");
+// } else {
+//   console.log("height is undefined");
+// }
+
+// const age = 18;
+// if (age === 18) console.log("you just became an adult (strict)");
+
+// if (age == 18) console.log("you just became adult (loose)");
+
+// const favourite = Number(prompt("what's your favourite number?"));
+// console.log(favourite);
+// console.log(typeof favourite);
+
+// if (favourite === 23) {
+//   console.log("23 is an amazing number");
+// } else if (favourite === 7) {
+//   console.log("7 is also a cool number");
+// } else if (favourite === 9) {
+//   console.log("9 is also a cool number");
+// } else {
+//   console.log("your number is not 23 or 7 or 9");
+// }
+
+// if (favourite !== 23) console.log("why not 23?");
+
+// const hasDriverLicense = true;
+// const hasGoodVision = true;
+
+// console.log(hasDriverLicense && hasGoodVision);
+// console.log(hasDriverLicense || hasGoodVision);
+// console.log(!hasDriverLicense);
+
+// // if (hasDriverLicense && hasGoodVision) {
+// //   console.log("Nahal is able to drivve");
+// // } else {
+// //   console.log("someone else should drive");
+// // }
+
+// const isTired = false;
+// console.log(hasDriverLicense && hasGoodVision && isTired);
+
+// if (hasDriverLicense && hasGoodVision && !isTired) {
+//   console.log("Nahal is able to drivve");
+// } else {
+//   console.log("someone else should drive");
+// }
+
+const scoreDolphins = (96 + 108 + 89) / 3;
+const scoreKoalas = (88 + 91 + 110) / 3;
+console.log(scoreDolphins);
+console.log(scoreKoalas);
+
+if (scoreDolphins > scoreKoalas) {
+  console.log("Dolphins win the trophy");
+} else if (scoreKoalas > scoreDolphins) {
+  console.log("Koalas win the trophy");
 } else {
-  console.log(`John's BMI ${BMIJohn} is higher than Mark's ${BMIMark}!`);
+  console.log("Both win the trophy");
 }

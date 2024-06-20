@@ -130,6 +130,7 @@
 //   console.log("height is undefined");
 // }
 
+// 22. == vs ===
 // const age = 18;
 // if (age === 18) console.log("you just became an adult (strict)");
 
@@ -173,15 +174,71 @@
 //   console.log("someone else should drive");
 // }
 
-const scoreDolphins = (96 + 108 + 89) / 3;
-const scoreKoalas = (88 + 91 + 110) / 3;
-console.log(scoreDolphins);
-console.log(scoreKoalas);
+// 25. Challenge #3
+// const scoreDolphins = (96 + 108 + 89) / 3;
+// const scoreKoalas = (88 + 91 + 110) / 3;
+// console.log(scoreDolphins);
+// console.log(scoreKoalas);
 
-if (scoreDolphins > scoreKoalas) {
-  console.log("Dolphins win the trophy");
-} else if (scoreKoalas > scoreDolphins) {
-  console.log("Koalas win the trophy");
-} else {
-  console.log("Both win the trophy");
-}
+// if (scoreDolphins > scoreKoalas) {
+//   console.log("Dolphins win the trophy");
+// } else if (scoreKoalas > scoreDolphins) {
+//   console.log("Koalas win the trophy");
+// } else {
+//   console.log("Both win the trophy");
+// }
+
+// 27. Switch Case
+// const day = "monday";
+
+// switch (day) {
+//   case "monday":
+//     console.log("plan course structure");
+//     console.log("go to coding meetup");
+//     break;
+//   case "tuesday":
+//     console.log("prepare theory videos");
+//     break;
+//   case "wednesday":
+//   case "thusday":
+//     console.log("write code examples");
+//     break;
+//   case "friday":
+//     console.log("record videos");
+//     break;
+//   case "saturday":
+//   case "sunday":
+//     console.log("enjoy the weekend");
+//     break;
+//   default:
+//     console.log("not a valid day");
+// }
+
+// // 28. Ternary Operator
+// const age = 21;
+// // age >= 18
+// //   ? console.log("i like to drink wine")
+// //   : console.log("i like to drink water");
+
+// const drink = age >= 18 ? "wine" : "water";
+// console.log(drink);
+
+// let drink2;
+// if (age >= 18) {
+//   drink2 = "wine";
+// } else {
+//   drink2 = "water";
+// }
+
+// console.log(drink2);
+
+// console.log(`i like to drink ${age >= 18 ? "wine" : "water"}`);
+
+//Challenge #4
+const bill = 430;
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2;
+const total = bill + tip;
+console.log(total);
+console.log(
+  `The bill was ${bill}, the tip was ${tip}, and the total value ${total}`
+);
